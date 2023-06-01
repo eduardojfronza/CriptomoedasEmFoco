@@ -1,7 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 .container {
   display: grid;
-  grid-template-columns: 30% 60%;
-  grid-template-rows:30px 80px 20px;
-  grid-template-areas: '';
+  grid-template-columns: 20% 100%;
+  grid-template-rows:20px 10px 10px;
+  grid-template-areas:'';
 
 }
