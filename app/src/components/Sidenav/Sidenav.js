@@ -1,4 +1,5 @@
 import Logotipo from './Logotipo/Logotipo'
+import Navbar from './Navbar/Navbar'
 import './Sidenav.css'
 
 function Sidenav() {
@@ -6,6 +7,7 @@ function Sidenav() {
         <>
             <header>
                 <Logotipo />
+                <Navbar />
             </header>
         </>
     )
