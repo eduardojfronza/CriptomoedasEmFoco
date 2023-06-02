@@ -1,11 +1,12 @@
+import Logotipo from './Logotipo/Logotipo'
 import './Sidenav.css'
 
 function Sidenav() {
-    return(
+    return (
         <>
-        <header>
-            <p>Sidenav</p>
-        </header>
+            <header>
+                <Logotipo />
+            </header>
         </>
     )
 }

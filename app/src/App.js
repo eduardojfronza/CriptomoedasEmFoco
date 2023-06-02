@@ -15,7 +15,7 @@ function App() {
           <Header />
         </section>
 
-        <section className='content'>
+        <section className='content '>
           <Content />
         </section>
 
