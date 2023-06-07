@@ -4,7 +4,6 @@ function Line() {
     return(
         <>
             <div className='LinhaMenu'></div>
-            <input></input>
         </>
     )
 }
