@@ -1,12 +1,12 @@
-import './Logotipo.css'
+import { ContainerLogo } from './Logotipo.jsx'
 import logo from '../../../assets/logo.avif'
-function Logotipo(){
-    return(
+function Logotipo() {
+    return (
         <>
-            <div className='teste'>
-              <img src={logo}></img>
-              <p>Criptos em Foco</p>
-            </div>
+            <ContainerLogo>
+                <img src={logo}></img>
+                <p>Criptos em Foco</p>
+            </ContainerLogo>
         </>
     )
 }

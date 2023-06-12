@@ -1,14 +1,14 @@
 import Logotipo from './Logotipo/Logotipo'
 import Navbar from './Navbar/Navbar'
-import './Sidenav.css'
+import {MenuLateral} from'./Sidenav.jsx'
 
 function Sidenav() {
     return (
         <>
-            <header>
+            <MenuLateral>
                 <Logotipo />
                 <Navbar />
-            </header>
+            </MenuLateral>
         </>
     )
 }

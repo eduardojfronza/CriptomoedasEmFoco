@@ -1,9 +1,10 @@
-import './Line.css'
+import './Line.jsx'
+import {LinhaMenu} from './Line.jsx'
 
 function Line() {
     return(
         <>
-            <div className='LinhaMenu'></div>
+           <LinhaMenu></LinhaMenu>
         </>
     )
 }

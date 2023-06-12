@@ -1,17 +1,16 @@
-.teste {
-    display: flex;
-    margin: 0px 5px;
-}
+import styled from "styled-components";
 
-.teste img {
+export const ContainerLogo = styled.div`
+display: flex;
+margin: 0px 5px;
+
+> img {
     width: 45px;
     height: 45px;
-
-    margin-top: 10px;
-    
+    margin - top: 10px;
 }
 
-.teste p {
+> p {
     margin-top: 10px;
     margin-left: 5px;
 
@@ -19,5 +18,5 @@
     font-weight: 700;
     font-size: 20px;
     color: #0768B5;
-
 }
+`

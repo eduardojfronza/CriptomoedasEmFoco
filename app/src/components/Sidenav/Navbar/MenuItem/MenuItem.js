@@ -1,16 +1,16 @@
-import './MenuItem.css'
+import {ListaMenu,IconeMenuItem,TextoMenuItem} from './MenuItem.jsx'
 
 const MenuItem = ({ icons, text, linkPage }) => {
     return (
-        <li>
-            <div className='iconeMenuItem'>
+        <ListaMenu>
+            <IconeMenuItem>
                 {icons}
-            </div>
+            </IconeMenuItem>
             
-            <div className='textoMenuItem'>
+            <TextoMenuItem>
                 <a href={linkPage} target={'_blank'}>{text}</a>
-            </div>
-        </li>
+            </TextoMenuItem>
+        </ListaMenu>
     )
 }
 

@@ -1,4 +1,4 @@
-import './Home.css'
+import {ContainerPrincipal,AreaSidenav,AreaHeader,AreaContent } from './Home.jsx'
 import Header from '../../components/Header/Header';
 import Sidenav from '../../components/Sidenav/Sidenav';
 import Content from '../../components/Content/Content';   
@@ -6,23 +6,19 @@ import Content from '../../components/Content/Content';
 function Home() {
     return (
         <>
-            <section className='container'>
-                <section className='sidenav'>
+            <ContainerPrincipal>
+                <AreaSidenav>
                     <Sidenav />
-                </section>
+                </AreaSidenav>
 
-                <section className='header'>
+                <AreaHeader>
                     <Header />
-                </section>
+                </AreaHeader>
 
-                <section className='content '>
+                <AreaContent>
                     <Content />
-                </section>
-
-                <section className='footer'>
-
-                </section>
-            </section>
+                </AreaContent>
+            </ContainerPrincipal>
         </>
     )
 }
