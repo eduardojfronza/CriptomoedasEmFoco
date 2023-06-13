@@ -1,4 +1,4 @@
-import './Content.css'
+import './ContentHome.jsx'
 
 function Content() {
     return(

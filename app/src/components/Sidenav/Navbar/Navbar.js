@@ -1,7 +1,6 @@
 import {ContainerLista, Navagacao} from './Navbar.jsx'
 import MenuItem from './MenuItem/MenuItem';
 import { BiHome, BiGlobe, BiMoney, BiChat, BiQuestionMark } from 'react-icons/bi';
-import React, { useState } from 'react';
 import Line from '../Line/Line';
 
 function Navbar() {
@@ -13,7 +12,7 @@ function Navbar() {
                     <MenuItem
                         icons={<BiHome />}
                         text='Home'
-                        linkPage='https://github.com/eduardojfronza'
+                        linkPage="/Home"
                     />
 
                     <MenuItem
@@ -33,7 +32,7 @@ function Navbar() {
                     <MenuItem
                         icons={<BiChat />}
                         text='Chatbot'
-                        linkPage='https://github.com/eduardojfronza'
+                        linkPage='/Chat'
                     />
 
                     <MenuItem

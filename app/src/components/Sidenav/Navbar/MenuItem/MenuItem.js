@@ -1,4 +1,5 @@
 import {ListaMenu,IconeMenuItem,TextoMenuItem} from './MenuItem.jsx'
+import { Link } from 'react-router-dom';
 
 const MenuItem = ({ icons, text, linkPage }) => {
     return (
@@ -8,7 +9,7 @@ const MenuItem = ({ icons, text, linkPage }) => {
             </IconeMenuItem>
             
             <TextoMenuItem>
-                <a href={linkPage} target={'_blank'}>{text}</a>
+                <Link to={linkPage}>{text}</Link>
             </TextoMenuItem>
         </ListaMenu>
     )

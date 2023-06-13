@@ -1,12 +1,12 @@
-import {ContainerPrincipal,AreaSidenav,AreaHeader,AreaContent } from './Home.jsx'
+import {ContainerPrincipal,AreaSidenav,AreaHeader,AreaContent } from '../Home/Home.jsx'
 import Header from '../../components/Header/Header';
-import Sidenav from '../../components/Sidenav/Sidenav';
-import Content from '../../components/ContentHome/ContentHome.js';   
+import Sidenav from '../../components/Sidenav/Sidenav'; 
+import ContentChat from '../../components/ContentChat/ContentChat.js';
 
-function Home() {
-    return (
+function Chat() {
+    return(
         <>
-            <ContainerPrincipal>
+             <ContainerPrincipal>
                 <AreaSidenav>
                     <Sidenav />
                 </AreaSidenav>
@@ -16,11 +16,11 @@ function Home() {
                 </AreaHeader>
 
                 <AreaContent>
-                    <Content />
+                    <ContentChat />
                 </AreaContent>
             </ContainerPrincipal>
         </>
     )
 }
 
-export default Home
+export default Chat
